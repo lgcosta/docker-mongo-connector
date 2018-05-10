@@ -3,12 +3,17 @@
 Referencies: https://github.com/mongodb-labs/mongo-connector
 
 Build:
-
 ```
-git clone ...
-cd ...
+git clone https://github.com/lgcosta/docker-mongo-connector.git
+cd docker-mongo-connector
 docker build -t mongo-connector .
 ```
+
+or use by hub.docker:
+```
+docker pull gugabsd/docker-mongo-connector
+```
+
 
 Usage (Rancher):
 ```
